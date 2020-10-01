@@ -14,6 +14,7 @@ const FileUpload2 = (props) => {
       }
     }
     
+    
     const handleOnFileLoad = (data) => {
 
 
@@ -24,7 +25,7 @@ const FileUpload2 = (props) => {
 
       console.log(json[0].data.type)
       console.log('---------------------------')
-      
+
     }
 
 
