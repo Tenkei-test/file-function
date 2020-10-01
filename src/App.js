@@ -11,7 +11,7 @@ function App() {
   const [parameter2, setParameter2] = useState("");
   return (
     <div>
-      <h5>Hello ...</h5>
+      <h5>Hello ...Tenkei</h5>
       <FileUpload parameter ={parameter1} setParameter ={setParameter1}></FileUpload>
       <FileUpload2 parameter ={parameter2} setParameter ={setParameter2}></FileUpload2>
       { parameter1 && parameter2 ?
